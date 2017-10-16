@@ -173,7 +173,7 @@ ri.Displacement("doDisplace", {
 
 # applying bump map for the compnay logo
 ri.Pattern("PxrBump", "text", {
-                              "string filename": "lamy_9.tx",
+                              "string filename": "lamy.tx",
                               "float scale" : [0.1]
                               })
 
@@ -196,7 +196,7 @@ ri.AttributeBegin()
 
 # applying scratches
 ri.Pattern("PxrBump", "scratch", {
-                                  "string filename": "scratch_new.tx",
+                                  "string filename": "scratch_cap.tx",
                                   "float scale" : [0.005]
                                  })
 
@@ -295,7 +295,7 @@ ri.ShadingRate(2)
 
 # applying scratches
 ri.Pattern("PxrBump", "scratchbody", {
-                                      "string filename": "scratch.tx",
+                                      "string filename": "scratch_body.tx",
                                       "float scale" : [0.005]
                                      })
 
